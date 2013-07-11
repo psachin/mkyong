@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="22dp"
+        android:text="@string/display_text" />
+
+    <CheckBox
+        android:id="@+id/checkIOS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="14dp"
+        android:text="@string/chkios" />
+
+    <CheckBox
+        android:id="@+id/checkLinux"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkWindows"
+        android:layout_below="@+id/checkWindows"
+        android:layout_marginTop="32dp"
+        android:text="@string/chk_linux"
+        android:checked="true"  />
+
+    <CheckBox
+        android:id="@+id/checkAndroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkLinux"
+        android:layout_below="@+id/checkLinux"
+        android:layout_marginTop="35dp"
+        android:text="@string/chk_android"
+          />
+
+    <CheckBox
+        android:id="@+id/checkWindows"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkIOS"
+        android:layout_below="@+id/checkIOS"
+        android:layout_marginTop="34dp"
+        android:text="@string/chk_windows" />
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/checkAndroid"
+        android:layout_marginTop="30dp"
+        android:text="Done" />
+
+</RelativeLayout>

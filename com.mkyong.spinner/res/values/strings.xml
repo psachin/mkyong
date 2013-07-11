@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mk-spinner</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="countries">Country</string>
+    <string-array name="country_array">
+        <item >India</item>
+        <item >China</item>
+        <item >Japan</item>
+    </string-array>
+
+</resources>
