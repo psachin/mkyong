@@ -1,5 +1,4 @@
 ** mkyong android tutorials([[www.mkyong.com]])
-
 ** Usage
    
    Attach device or start emulator and run 
@@ -8,3 +7,4 @@
    bash start_app.sh
    #+END_SRC   s
 
+   
